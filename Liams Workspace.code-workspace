@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "LovetechTrack",
+			"path": "..\\Desktop\\LovetechTrack\\LovetechTrack"
+		},
+		{
+			"name": "WebDevBootcamp",
+			"path": "..\\Documents\\WebDevBootcamp"
+		},
+		{
+			"name": "TeamProject",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TeamProject"
+	}
+}

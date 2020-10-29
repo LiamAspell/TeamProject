@@ -4,66 +4,76 @@
             <link href="bootstrap.css" rel="stylesheet"> 
             <link rel="stylesheet" href="stylesheet.css">
 
-            <link rel="icon" href="logo.jpg">
+            <link rel="icon" href="output-onlinepngtools.png">
             
-            <title>Your Profile</title>
+            <title>Profile Page</title>
         </head>
 
         <body>
         
           <div id ="Header">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Your Profile</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-background-color: rgb(99, 159, 214);">
+                <img src="output-onlinepngtools.png" width="80px">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
               
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                      <a class="nav-link" id ="navbutton" href="#"><strong>Home</strong><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Post a Score</a>
+                      <a class="nav-link" id ="navbutton" href="#"><strong>Post a Score</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">View Your History</a>
+                        <a class="nav-link" id ="navbutton" href="#"><strong>View Your History</strong></a>
                       </li>
 
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Leave a Review</a>
+                        <a class="nav-link" id ="navbutton" href="#"><strong>Leave a Review</strong></a>
                       </li>     
+                      <form class="Logo">
+                        
+                      </form>
+                      
                 </div>
               </nav>
         </div>       
         
         <div class="ProfileInfo">
-          <img src="profile.jpg" width="100" height="100">
-          <Table>
+          <div>
+            <img class="Profilepic" src   Kyr="profile.jpg"  width="150px" height="150px">
+          </div>
+          
+    
+          <table>
             <tr>
               <th>Name</th>
-              <td>  Some Name</td>>
+              <td style ="width: 35%">Some Name</td>>
             </tr>
             <tr>
               <th>MemberCourse</th>
-              <td>  SomeMemberCourse</td>>
+              <td>SomeMemberCourse</td>>
             </tr>
             <tr>
               <th>Best Handicap</th>
-              <td>  SomeBestHandicap</td>>
+              <td>SomeBestHandicap</td>>
             </tr>
             <tr>
               <th>Years Playing</th>
-              <td>  SomeYears</td>>
+              <td>SomeYears</td>>
             </tr>
             <tr>
               <th>Honours</th>
-              <td>  SomeHonours</td>>
+              <td>SomeHonours</td>>
             </tr>
-          </Table>
+          </table>
+        </div>
+        
 
           
-        </div>
+        
         
 
         <div style="float:left" class ="spottable">
@@ -118,16 +128,38 @@
               <table class= "ChangeProfile">
                 <form>
                   <h1><bold>Update Your Profile Here</bold></h1>
-                  <label for="name">First Name:       </label>
-                  <input type="text" id="name" name="fname" ><br>
-                  <label for="name">Handicap:       </label>
-                  <input type="text" id="Hcap" name="hc" ><br>
-                  <label for="name">Best Course:      </label>
-                  <input type="text" id="bestCourse" name="bc" ><br>
-                  <button class="btn btn-warning">Post</button>
+                  <tr>
+                    <td>
+                      <label for="name">First Name:       </label>
+                    </td>
+                    <td style="width: 35%;">
+                      <input type="text" id="name" name="fname" ><br>
+                    </td>
+                    
+                  </tr>
+                  
+                  <tr>
+                    <td>
+                      <label for="name">Handicap:       </label>
+                    </td>
+                    <td style="width: 35%;">
+                      <input type="text" id="Hcap" name="hc" ><br>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <label for="name">Best Course:      </label>
+                    </td>
+                    <td style="width: 35%;">
+                      <input type="text" id="bestCourse" name="bc" ><br>
+                    </td>
+                  </tr>
+                  
                 </form>
+                
               </table>
-              
+              <button class="btn btn-warning">Update Info</button>
             </div>
           
             <footer class="footer" id="foot">                

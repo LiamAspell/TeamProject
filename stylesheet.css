@@ -56,3 +56,9 @@ body {
 .ChangeProfile{
     font-family: Arial, Helvetica, sans-serif;
 }
+.ProfileInfo{
+    position: relative;
+}
+#navbutton{
+    font-family: fantasy;
+}
