@@ -1,6 +1,10 @@
 body {
     background-color: rgb(99, 159, 214);
 }
+
+.header{
+    background-color: lightgreen;
+}
  h1 {
      font-family: Arial, Helvetica, sans-serif;
  }
@@ -26,6 +30,10 @@ body {
     text-align: center;
     vertical-align : baseline;
     font-size: larger;
+    position: relative;
+    left: 500px;
+    top: 900px;
+
 }
 #foot{
     position:fixed;
@@ -35,8 +43,8 @@ body {
 
 .spottable{
     position:relative;
-    left: 1300px;
-    top: -210px;
+    
+    top: 150px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -62,3 +70,15 @@ body {
 #navbutton{
     font-family: fantasy;
 }
+
+#edit{
+    position: absolute;
+    left: 600px;
+    top: 50px;
+}
+
+.editInfo{
+    
+
+}
+
